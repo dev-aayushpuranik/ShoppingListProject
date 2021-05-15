@@ -1,0 +1,7 @@
+<resources>
+	<dimen name="toolbar_textSize">14.5sp</dimen>
+	<dimen name="toolbarHeight">34.4dp</dimen>
+	<dimen name="textSize">12.7sp</dimen>
+	<dimen name="tvHeight">64.2dp</dimen>
+	<dimen name="sideMenuIconSize">20dp</dimen>
+</resources>

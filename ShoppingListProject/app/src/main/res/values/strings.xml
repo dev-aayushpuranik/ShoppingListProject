@@ -1,4 +1,8 @@
 <resources>
-    <string name="app_name">ShoppingListApp</string>
-    <string name="app_title">Shopping List app</string>
+    <string name="app_name">Shopping List App</string>
+    <string name="app_title">Shopping List</string>
+
+    <string name="hello_blank_fragment">Side Menu Fragment</string>
+    <string name="open">Open</string>
+    <string name="close">close</string>
 </resources>

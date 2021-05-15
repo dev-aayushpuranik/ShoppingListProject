@@ -1,7 +1,9 @@
 package com.aayush.shoppinglistapp
 
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import androidx.appcompat.app.ActionBarDrawerToggle
+import androidx.appcompat.app.AppCompatActivity
+import androidx.core.view.GravityCompat
 import com.aayush.shoppinglistapp.databinding.ActivityMainBinding
 
 class MainActivity : AppCompatActivity() {
@@ -14,9 +16,50 @@ class MainActivity : AppCompatActivity() {
 
         _viewBinding = ActivityMainBinding.inflate(layoutInflater)
 
-        setTheme(R.style.Theme_ShoppingListApp)
+        setTheme(R.style.AppTheme)
         setContentView(viewBinding.root)
 
-        viewBinding.titleView.text = getString(R.string.app_title)
+        setSupportActionBar(viewBinding.toolbarView.toolbar)
+
+        setViews()
+    }
+
+    private fun setViews() {
+        setNavigationDrawer()
+    }
+
+    private fun setNavigationDrawer() {
+        val drawerLayout = viewBinding.drawerLayout
+        val mDrawerToggle = ActionBarDrawerToggle(
+            this, drawerLayout,
+            viewBinding.toolbarView.toolbar,
+            R.string.open, R.string.close
+        )
+
+        drawerLayout.setDrawerListener(mDrawerToggle)
+
+        mDrawerToggle.let {
+            drawerLayout.addDrawerListener(mDrawerToggle)
+        }
+
+        viewBinding.toolbarView.menuItemIcon.setOnClickListener {
+            openCloseDrawer()
+        }
+    }
+
+    override fun onBackPressed() {
+        if (viewBinding.drawerLayout.isDrawerOpen(GravityCompat.START)) {
+            viewBinding.drawerLayout.closeDrawer(GravityCompat.START)
+        } else {
+            super.onBackPressed()
+        }
+    }
+
+    private fun openCloseDrawer() {
+        if (viewBinding.drawerLayout.isDrawerOpen(GravityCompat.START)) {
+            viewBinding.drawerLayout.closeDrawer(GravityCompat.START)
+        } else {
+            viewBinding.drawerLayout.openDrawer(GravityCompat.START)
+        }
     }
 }
