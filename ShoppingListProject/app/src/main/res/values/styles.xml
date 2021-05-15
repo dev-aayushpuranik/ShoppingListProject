@@ -2,12 +2,13 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
 
     <style name="launcherStyle">
-        <item name="android:windowBackground">@color/white</item>
+        <item name="android:windowBackground">@drawable/launcher_style</item>
     </style>
 
     <style name="Theme.ShoppingListApp" parent="Theme.AppCompat.Light.NoActionBar">
         <!-- Primary brand color. -->
         <item name="colorPrimary">@color/purple_500</item>
+        <item name="android:windowBackground">@color/white</item>
         <!-- Customize your theme here. -->
     </style>
 </resources>
