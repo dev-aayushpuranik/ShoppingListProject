@@ -1,4 +1,4 @@
-package com.aayush.shoppinglistproject
+package com.aayush.shoppinglistapp
 
 import org.junit.Test
 

@@ -1,3 +1,4 @@
 <resources>
-    <string name="app_name">ShoppingListProject</string>
+    <string name="app_name">ShoppingListApp</string>
+    <string name="app_title">Shopping List app</string>
 </resources>
