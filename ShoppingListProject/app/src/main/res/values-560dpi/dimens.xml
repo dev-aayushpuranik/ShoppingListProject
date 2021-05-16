@@ -4,4 +4,6 @@
 	<dimen name="textSize">15.9sp</dimen>
 	<dimen name="tvHeight">120.2dp</dimen>
 	<dimen name="sideMenuIconSize">37.5dp</dimen>
+	<dimen name="warningTextSize">20.5sp</dimen>
+	<dimen name="warningSignSize">100dp</dimen>
 </resources>

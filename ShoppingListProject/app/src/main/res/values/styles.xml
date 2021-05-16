@@ -15,6 +15,13 @@
         <item name="android:textStyle">bold</item>
     </style>
 
+    <style name="waringTextStyle">
+        <item name="android:textSize">@dimen/warningTextSize</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@android:color/holo_red_dark</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
     <style name="Theme.MyApplication.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
 
     <style name="Theme.MyApplication.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />

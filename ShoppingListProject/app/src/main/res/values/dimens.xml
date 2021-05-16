@@ -4,4 +4,6 @@
 	<dimen name="toolbarHeight">51.5dp</dimen>
 	<dimen name="toolbar_textSize">8.7sp</dimen>
 	<dimen name="sideMenuIconSize">30dp</dimen>
+	<dimen name="warningTextSize">9.8sp</dimen>
+	<dimen name="warningSignSize">80dp</dimen>
 </resources>
