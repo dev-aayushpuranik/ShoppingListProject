@@ -6,4 +6,5 @@
 	<dimen name="sideMenuIconSize">37.5dp</dimen>
 	<dimen name="warningTextSize">20.5sp</dimen>
 	<dimen name="warningSignSize">100dp</dimen>
+	<dimen name="smaller_margin">6.2dp</dimen>
 </resources>

@@ -6,5 +6,7 @@
 	<dimen name="warningTextSize">18sp</dimen>
 	<dimen name="tvHeight">96.2dp</dimen>
 
+	<dimen name="smaller_margin">5dp</dimen>
+
 	<dimen name="sideMenuIconSize">30dp</dimen>
 </resources>
