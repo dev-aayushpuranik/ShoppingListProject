@@ -1,9 +1,11 @@
-package com.aayush.shoppinglistapp
+package com.aayush.shoppinglistapp.view
 
 import android.os.Bundle
 import androidx.appcompat.app.ActionBarDrawerToggle
 import androidx.appcompat.app.AppCompatActivity
+import androidx.core.content.ContextCompat
 import androidx.core.view.GravityCompat
+import com.aayush.shoppinglistapp.R
 import com.aayush.shoppinglistapp.databinding.ActivityMainBinding
 
 class MainActivity : AppCompatActivity() {
@@ -16,6 +18,7 @@ class MainActivity : AppCompatActivity() {
 
         _viewBinding = ActivityMainBinding.inflate(layoutInflater)
 
+        window.statusBarColor = ContextCompat.getColor(this, R.color.colorPrimary)
         setTheme(R.style.AppTheme)
         setContentView(viewBinding.root)
 

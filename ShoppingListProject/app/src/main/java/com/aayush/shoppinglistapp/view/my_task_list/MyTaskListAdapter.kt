@@ -1,4 +1,4 @@
-package com.aayush.shoppinglistapp.ui.my_task_list
+package com.aayush.shoppinglistapp.view.my_task_list
 
 import android.content.Context
 import android.view.LayoutInflater
@@ -6,7 +6,7 @@ import android.view.ViewGroup
 import androidx.core.content.ContextCompat
 import androidx.recyclerview.widget.RecyclerView
 import com.aayush.shoppinglistapp.R
-import com.aayush.shoppinglistapp.data.MyTaskModel
+import com.aayush.shoppinglistapp.models.MyTaskModel
 import com.aayush.shoppinglistapp.databinding.MyTaskRowLayoutBinding
 
 class MyTaskListAdapter(

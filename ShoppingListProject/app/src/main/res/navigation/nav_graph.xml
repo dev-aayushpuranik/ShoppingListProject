@@ -7,7 +7,7 @@
 
     <fragment
         android:id="@+id/myTaskListFragment"
-        android:name="com.aayush.shoppinglistapp.ui.my_task_list.MyTaskListFragment"
+        android:name="com.aayush.shoppinglistapp.view.my_task_list.MyTaskListFragment"
         android:label="fragment_my_task_list"
         tools:layout="@layout/fragment_my_task_list" />
 </navigation>

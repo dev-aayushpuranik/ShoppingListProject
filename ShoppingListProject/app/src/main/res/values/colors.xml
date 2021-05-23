@@ -1,6 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimary">@android:color/holo_blue_bright</color>
     <color name="colorPrimaryDark">#00574B</color>
     <color name="colorAccent">#D81B60</color>
+    <color name="boundaryColor">#CCD1D1</color>
+    <color name="colorTitle">#ABB2B9</color>
+    <color name="colorSubtitle">#212121</color>
+    <color name="newTaskColor">#F2F4F4</color>
+    <color name="colorWhite">#FFFFFF</color>
 </resources>

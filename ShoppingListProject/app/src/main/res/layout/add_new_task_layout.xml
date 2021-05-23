@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:id="@+id/addNewTaskView"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/newTaskColor"
+    android:layout_margin="@dimen/smaller_margin"
+    android:translationZ="100dp"
+    android:backgroundTint="@color/colorWhite"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <androidx.appcompat.widget.AppCompatEditText
+        android:id="@+id/newTaskEditText"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@drawable/shape_rectangle"
+        android:hint="@string/new_task_str"
+        android:maxLines="5"
+        android:paddingHorizontal="@dimen/smaller_margin"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/priorityIcon"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/addTaskButton"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/addTaskButton"
+        android:layout_width="@dimen/sideMenuIconSize"
+        android:layout_height="@dimen/sideMenuIconSize"
+        android:background="@drawable/ic_baseline_add_circle_24"
+        app:layout_constraintBottom_toBottomOf="@+id/newTaskEditText"
+        app:layout_constraintEnd_toStartOf="@+id/newTaskEditText"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintHorizontal_chainStyle="spread_inside"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/newTaskEditText" />
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/priorityIcon"
+        android:layout_width="@dimen/sideMenuIconSize"
+        android:layout_height="@dimen/sideMenuIconSize"
+        android:src="@drawable/ic_off_star_24"
+        app:layout_constraintBottom_toBottomOf="@+id/newTaskEditText"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/newTaskEditText"
+        app:layout_constraintTop_toTopOf="@+id/newTaskEditText" />
+</androidx.constraintlayout.widget.ConstraintLayout>

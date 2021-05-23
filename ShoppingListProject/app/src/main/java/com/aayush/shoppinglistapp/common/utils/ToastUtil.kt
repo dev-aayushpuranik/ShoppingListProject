@@ -1,8 +1,7 @@
-package com.aayush.shoppinglistapp.utils
+package com.aayush.shoppinglistapp.common.utils
 
 import android.content.Context
 import android.widget.Toast
-import androidx.core.view.GravityCompat
 
 class ToastUtil {
 

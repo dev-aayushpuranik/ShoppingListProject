@@ -1,4 +1,4 @@
-package com.aayush.shoppinglistapp.ui.side_fragment
+package com.aayush.shoppinglistapp.view.side_fragment
 
 import android.os.Bundle
 import androidx.fragment.app.Fragment

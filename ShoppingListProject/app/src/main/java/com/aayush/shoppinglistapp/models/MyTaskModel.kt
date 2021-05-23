@@ -1,4 +1,4 @@
-package com.aayush.shoppinglistapp.data
+package com.aayush.shoppinglistapp.models
 
 data class MyTaskModel(
     val task: String,
